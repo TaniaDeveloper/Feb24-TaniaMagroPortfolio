@@ -1,5 +1,11 @@
 # Feb24_TaniaMagroPortfolio
-## Heading 1
+Weblink to site:
+
+GitHub Repo:
+
+Portfolio website:
+
+Purpose:
 
 ### Heading 3
 
