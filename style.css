@@ -1,3 +1,13 @@
+/* Default styles for small screens & anything not caught by @media */
+body {
+    background-color: #000;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serifs;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+
 header img {
     height: 80px;
     margin-left: 40px;
@@ -12,7 +22,7 @@ body {
 }
 
 main {
-    color: #111;
+    color: white
 }
 
 header {
@@ -36,6 +46,6 @@ header li {
 }
 
 header li a {
-    color: black;
+    color: white000;
     text-decoration: none;
 }
