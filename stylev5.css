@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+
+    --celestial-blue: #3397DB;
+    --misty-rose: #EFD5D3;
+    --cyclamen: #EE6D9C;
+    --aregentinian-blue: #71B2E9;
+    --tangerine: #EF8527;
+    --white: #FFFFFF;
+    --black: #000000;
+    --jet: #454142;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: var(--tangerine);
+    padding: 20px;
+    text-align: center;
+    color: var(--misty-rose)
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: var(--cyclamen);
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: var(--white);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: var(--tangerine);
+    color: black;
+  }
+  
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+    background-color: var(--#f2f2f2);
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 25%;
+    background-color: var(--misty-rose)
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 50%;
+    background-color: antiquewhite
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+
+
+  /* Style the footer */
+  .footer {
+    background-color: var(--tangerine);
+    padding: 10px;
+    text-align: center;
+  }
