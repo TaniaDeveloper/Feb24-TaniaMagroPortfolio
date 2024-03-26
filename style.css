@@ -40,7 +40,7 @@ main {
 }
 
 header {
-    background-color: white;
+    background-color: var(--misty-rose);
     position: fixed;
     top: 0;
     left: 0;
@@ -130,13 +130,23 @@ main.row {
 .footer {
     bottom: 0;
     width: 100%;
-    background-color: var(--cyclamen);
-    color: white;
     text-align: center;
-    background-color: white;
+    background-color: var(--misty-rose)
     position: absolute;
     left: 0;
 }
+/* social links */
+.social_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0 1rem;
+    margin-top: auto;
+}
+
+
 /* mobile first styling */
 
 
@@ -165,8 +175,7 @@ main.row {
     }
     footer {
         margin-top: 50px;
-        background-color: white;   
-        text-align: center;   
+        background-color: var(--misty-rose)     
         padding: 10px;  
         width: 100%;
         position: relative;
