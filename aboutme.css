@@ -2,7 +2,6 @@
 
 * {
     margin: 0;
-
     --celestial-blue: #3397DB;
     --misty-rose: #EFD5D3;
     --cyclamen: #EE6D9C;
@@ -12,10 +11,12 @@
     --black: #000000;
     --jet: #454142;
 }
+
 header img {
     height: 20%;
     margin-left: 40px;
 }
+
 body {
     height: 125px;
     background-color: var(--misty-rose);
@@ -25,7 +26,6 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
-
     height: 100%;
     width: 100%;
     margin-top: 85px;
@@ -74,10 +74,6 @@ header li a {
     z-index: 99;
 }
 
-
-
-
-
 .footer {
     bottom: 0;
     width: 100%;
@@ -87,47 +83,26 @@ header li a {
     position: absolute;
     left: 0;
 }
-/* social links */
-.social_links {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 1rem 0 1rem;
-    margin-top: auto;
+
+/* Blog Post Card Layout Styles */
+.cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
 }
 
+.card {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
 
+.card:hover {
+  transform: translateY(-5px);
+}
 
-/* Desktop styling */
-
-@media screen {min-width: 500px}
-    body {
-        background-color: var(--misty-rose);
-    };
-    
-    main.row {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    header img {
-        height: 100px;
-        margin-left: 50px;
-    }
-    header {
-        height: 100px;
-    }
-    header li {
-        margin: 30px;
-    }
-    footer {
-        margin-top: 50px;
-        background-color: var(--misty-rose)     
-        padding: 10px;  
-        width: 100%;
-        position: relative;
-    }
-
-
+.card h1 {
+  font

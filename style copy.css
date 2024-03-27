@@ -1,6 +1,7 @@
 /* CSS config */
 
 * {
+    margin: 0;
 
     --celestial-blue: #3397DB;
     --misty-rose: #EFD5D3;
@@ -10,19 +11,22 @@
     --white: #FFFFFF;
     --black: #000000;
     --jet: #454142;
-    font-family: Arial, helvetica, sans-serif;
 }
-
+header img {
+    height: 20%;
+    margin-left: 40px;
+}
 body {
     height: 125px;
     background-color: var(--misty-rose);
     background-size: auto;
+    font-family: Arial, helvetica, sans-serif;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
 
-    height: 80%;
+    height: 100%;
     width: 100%;
     margin-top: 85px;
     margin-right: 85px;
@@ -52,16 +56,14 @@ header {
 header * {
     display: inline;
 }
+
 header li {
     margin: 20px;
 }
+
 header li a {
     color: black;
     text-decoration: none;
-}
-header img {
-    height: 20%;
-    margin-left: 40px;
 }
 
 .navbar {
@@ -127,12 +129,11 @@ main.row {
     z-index: 100;
 }
 .footer {
-    display: flex;
-    bottom: 100;
+    bottom: 0;
     width: 100%;
     height: 20%;
     text-align: center;
-    background-color: var(--misty-rose);
+    background-color: var(--misty-rose)
     position: absolute;
     left: 0;
 }
@@ -175,8 +176,10 @@ main.row {
         margin: 30px;
     }
     footer {
-        background-color: var(--white);  
-        padding: 60px;  
-        width: 80%;
-        position: center;
+        margin-top: 50px;
+        background-color: var(--misty-rose)     
+        padding: 10px;  
+        width: 100%;
+        position: relative;
     }
+    
