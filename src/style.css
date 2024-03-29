@@ -110,6 +110,10 @@ main.row {
     z-index: 6;
 }
 
+img.a {
+    object-fit: cover;
+}
+
 .overlay-text {
     position: absolute;
     top: 50%;
