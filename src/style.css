@@ -1,6 +1,6 @@
 /* CSS config */
 
-* {
+* {margin: 0; padding: 0; box-sizing: border-box;
 
     --celestial-blue: #3397DB;
     --misty-rose: #EFD5D3;
