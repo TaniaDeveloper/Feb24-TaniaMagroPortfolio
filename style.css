@@ -90,7 +90,6 @@ main.row {
 .column {
     width: 80%;
     background-color: #EE6D9C;
-
    height: 50dvw;
    margin-top: 1%;
    margin-bottom: 1%;
@@ -128,7 +127,9 @@ main.row {
 }
 .footer {
     display: flex;
-    bottom: 100;
+    justify-content: center;
+    align-items: center;
+    bottom: 100%;
     width: 100%;
     height: 20%;
     text-align: center;
@@ -145,6 +146,7 @@ main.row {
     width: 100%;
     margin: 1rem 0 1rem;
     margin-top: auto;
+    margin-left: 0;
 }
 
 
@@ -154,7 +156,8 @@ main.row {
 
 /* Desktop styling */
 
-@media screen {min-width: 500px}
+@media screen {min-width: 500px;
+}
     body {
         background-color: var(--misty-rose);
     };
@@ -176,7 +179,8 @@ main.row {
     }
     footer {
         background-color: var(--white);  
-        padding: 60px;  
+        padding: 80px;  
+        margin: 0;
         width: 80%;
         position: center;
     }
