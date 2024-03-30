@@ -90,9 +90,11 @@ main.row {
 .column {
     width: 80%;
     background-color: #EE6D9C;
+
    height: 50dvw;
    margin-top: 1%;
    margin-bottom: 1%;
+   
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -110,10 +112,20 @@ main.row {
     z-index: 6;
 }
 
-img.a {
-    object-fit: cover;
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(5, 252, 46, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 100;
 }
-
 .footer {
     display: flex;
     justify-content: center;
@@ -145,7 +157,7 @@ img.a {
 
 /* Desktop styling */
 
-@media screen {min-width: 600px;
+@media screen {min-width: 500px;
 }
 
     body {
