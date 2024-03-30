@@ -1,9 +1,11 @@
-# Feb24_TaniaMagroPortfolio
+# {Tania Magro}_T1A2
 
 ## Links
 Weblink to site: https://taniamagro.netlify.app/ 
 
 GitHub Repo: https://github.com/TaniaDeveloper/Feb24-TaniaMagroPortfolio 
+
+Presentation: https://youtu.be/Y4DpmHu9OlM 
 
 Description of my portfolio website:
 
@@ -89,9 +91,9 @@ Over the next few months, with further time and understanding, I home to update 
 
 I have also used the following website for tips and tricks
 * You Tube
-* w3 Schools (also not also the best, as I have found that most nos there tipcs for HTML and CSS was purely HTML. You could not sperate the codding into the various sections)
+* w3 Schools (also not also the best, as I have found that most nos there tipcs for HTML and CSS was purely HTML. You could not seperate the code into the various sections)
 * Substack
-* TikTok (some really great bite seized reels of videos to watch, and also lotsb of screenshots of websites to use to develop skills)
+* TikTok (some really great bite sized reels of videos to watch, and also lots of screenshots of websites to use to develop skills)
 
 
 

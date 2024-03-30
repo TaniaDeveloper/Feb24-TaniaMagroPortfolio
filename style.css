@@ -14,9 +14,8 @@
 }
 /* Elements for body section on all pages */
 body {
-    height: 125px;
+    height: 100px;
     background-color: var(--misty-rose);
-    background-size: auto;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -127,7 +126,7 @@ main.row {
     z-index: 100;
 }
 
-/* elem,emnts for footer on all pages */
+/* Footer elements */
 .footer {
     display: flex;
     justify-content: center;
