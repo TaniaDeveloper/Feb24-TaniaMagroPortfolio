@@ -12,7 +12,7 @@
     --jet: #454142;
     font-family: Arial, helvetica, sans-serif;
 }
-
+/* Elements for body section on all pages */
 body {
     height: 125px;
     background-color: var(--misty-rose);
@@ -35,7 +35,7 @@ main {
     color: black;
     height: 60%;
 }
-
+/* header elements for all pages */
 header {
     background-color: var(--misty-rose);
     position: fixed;
@@ -63,7 +63,7 @@ header img {
     height: 20%;
     margin-left: 40px;
 }
-
+/* elemnts for the navigation bar on all pages */
 .navbar {
     position: fixed;
     top: 0px;
@@ -126,6 +126,8 @@ main.row {
     border-radius: 10px;
     z-index: 100;
 }
+
+/* elem,emnts for footer on all pages */
 .footer {
     display: flex;
     justify-content: center;
